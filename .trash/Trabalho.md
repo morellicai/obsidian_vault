@@ -1,0 +1,10 @@
+- Compra -> 
+	- Selecionar produtos, 
+	- Procurar produto, 
+	- Selecionar variação:
+		- Tamanho, 
+		- cor, 
+		- estilo
+	- Check-out, 
+	- Adicionar Itens (*gurda em banco de dados*), 
+	- Entrega de Itens

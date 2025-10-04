@@ -1,0 +1,19 @@
+{
+  "strictLineBreaks": true,
+  "showLineNumber": false,
+  "showInlineTitle": false,
+  "foldIndent": true,
+  "showIndentGuide": false,
+  "trashOption": "local",
+  "showUnsupportedFiles": true,
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./attachments",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

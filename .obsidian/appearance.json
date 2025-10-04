@@ -1,0 +1,9 @@
+{
+  "accentColor": "#80ec7e",
+  "theme": "system",
+  "textFontFamily": "Source Code Pro",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "nativeMenus": false,
+  "cssTheme": "Typewriter"
+}

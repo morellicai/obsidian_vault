@@ -1,0 +1,12 @@
+## Description
+
+`ALTER TABLE` enables you to change the structure of an existing table. For example, you can add or delete columns, create or destroy indexes, change the type of existing columns, or rename columns or the table itself. You can also change the comment for the table and the storage engine of the table.
+
+If another connection is using the table, a [metadata lock](https://mariadb.com/docs/server/reference/sql-statements/transactions/metadata-locking) is active, and this statement will wait until the lock is released. This is also true for non-transactional tables.
+
+When adding a `UNIQUE` index on a column (or a set of columns) which have duplicated values, an error will be produced and the statement will be stopped. To suppress the error and force the creation of `UNIQUE` indexes, discarding duplicates, the [IGNORE](https://mariadb.com/docs/server/reference/sql-statements/data-manipulation/inserting-loading-data/ignore) option can be specified. This can be useful if a column (or a set of columns) should be UNIQUE but it contains duplicate values; however, this technique provides no control on which rows are preserved and which are deleted. Also, note that `IGNORE` is accepted but ignored in `ALTER TABLE ... EXCHANGE PARTITION` statements.
+
+This statement can also be used to rename a table. For details see [RENAME TABLE](https://mariadb.com/docs/server/reference/sql-statements/data-definition/rename-table).
+
+When an index is created, the storage engine may use a configurable buffer in the process. Incrementing the buffer speeds up the index creation. [Aria](https://mariadb.com/docs/server/server-usage/storage-engines/aria) and [MyISAM](https://mariadb.com/docs/server/server-usage/storage-engines/myisam-storage-engine) allocate a buffer whose size is defined by [aria_sort_buffer_size](https://mariadb.com/docs/server/server-usage/storage-engines/aria/aria-system-variables#aria_sort_buffer_size) or [myisam_sort_buffer_size](https://mariadb.com/docs/server/server-usage/storage-engines/myisam-storage-engine/myisam-system-variables#myisam_sort_buffer_size), also used for [REPAIR TABLE](https://mariadb.com/docs/server/reference/sql-statements/table-statements/repair-table). [InnoDB](https://mariadb.com/docs/server/server-usage/storage-engines/innodb) allocates three buffers whose size is defined by [innodb_sort_buffer_size](https://mariadb.com/docs/server/server-usage/storage-engines/innodb/innodb-system-variables#innodb_sort_buffer_size).
+

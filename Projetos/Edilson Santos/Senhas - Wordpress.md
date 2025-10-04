@@ -1,0 +1,10 @@
+- Senha banco de dados: managerprod
+- wordpress:
+	- login: morelli.dev
+	- senha: m61)!rDA2BB@pR0PXf
+- Gmail:
+	- login: edilsonsantos.site@gmail.com
+	- Senha: K2%mrDCG)=MQdbz
+- Senha Config escrita:
+	- Login:
+	- Senha: SKFbTc-v)wTx,2p
