@@ -1,0 +1,3 @@
+Com herança, podemos criar classes a partir de outras classes. 
+Na genética, temos a herança genética, que é quando herdamos particularidade de nossos pais para a nossa aparência e jeito de ser.
+Na orientação a Objetos isso não é muito diferente. Podemos ter uma classe pai, que vai contar a base da [[Abstração]], e dela podemos utilizar ela como ela já é, ou podemos incrementar, como no exemplo da cadeira
