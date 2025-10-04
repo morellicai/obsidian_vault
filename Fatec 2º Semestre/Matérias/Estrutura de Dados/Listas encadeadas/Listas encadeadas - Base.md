@@ -2,6 +2,7 @@
 - Arquivo `ed-08v2.pptx`
 - Professor Fretz
 - [[0. Estrutura de Dados - Base | Base]]
+- [[Tarefa]]
 ---
 # Estudos por fora
 

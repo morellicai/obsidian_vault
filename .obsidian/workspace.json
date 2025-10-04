@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/Listas encadeadas - Base.md",
+                "file": "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/Tarefa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Listas encadeadas - Base"
+              "title": "Tarefa"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Tipo Lista Encadeada"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 235.5,
+    "collapsed": true
   },
   "right": {
     "id": "e43ce2c4bdc6f973",
@@ -185,9 +185,16 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "98b6ea9b26128a23",
+  "active": "397f8e4b6ed99c2c",
   "lastOpenFiles": [
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_22-01-23.png",
     "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/Tipo Lista Encadeada.md",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/Tarefa.md",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_21-43-04.png",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_21-25-34 2.png",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_21-25-34 1.png",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_21-25-34.png",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments",
     "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/Listas encadeadas - Base.md",
     "Fatec 2º Semestre/Matérias/Estrutura de Dados/Ordenação e Busca/Ordenação e Busca.md",
     "Fatec 2º Semestre/Matérias/Estrutura de Dados/Fila/Fila.md",
@@ -225,13 +232,6 @@
     "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/0. Desenvolvimento Web II - Base.md",
     "Fatec 2º Semestre/Matérias/Matemática Para Computação/0. Matemática Para Computação - Base.md",
     "Fatec 2º Semestre/Matérias/Banco de Dados/Sem título.base",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/Untitled.md",
-    "Fatec 2º Semestre/Matérias/Técnicas de Programação/1. Aula Java Inicial.md",
-    "SQL/sql",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/attachments/Exemplo12_13.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/attachments/Exemplo11.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/attachments/Exemplo10.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/attachments/Exemplo9.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/attachments/Exemplo8.png"
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/attachments/Exemplo12_13.png"
   ]
 }

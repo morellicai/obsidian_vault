@@ -44,5 +44,24 @@ void exibe(Lista L) {
 ##### Lógica
 - Uma função que contém um `{c} while` onde se a lista for `{c} NULL` é onde o loop acaba.
 - Ele printa o item L em questão `{c} L->item`
-- Pula para o proximo item do array `{c} L = L->prox;
+- Pula para o próximo item do array `{c} L = L->prox;
 > Note que, no final do percurso, o ponteiro inicial continua apontando o primeiro nó da lista
+## Tamanho da lista
+```c
+int tamanho(Lista L) {
+  int t = 0;
+  while (L) {
+    t++;
+    L = L->prox;
+  }
+  return t;
+}
+```
+##### Lógica
+- Função que retorna um inteiro, por isso leva o tipo `{c} int`
+- Cria um contador `t` inciando em 0
+- Loop `{c} while` para que o tamanho (que não sabemos da lista) seja iterado por completo
+- Contador adiciona 1 a cada iteração
+- Lista passa para o próximo item com `{c} L->prox`
+- Função retorna contador
+> Essa função já está contida no meu arquivo `listaEncadeada.h` que montei para adicionar ao cabeçalho das aplicações
