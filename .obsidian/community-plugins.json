@@ -1,5 +1,6 @@
 [
   "quick-latex",
-  "pomodoro-timer",
-  "shiki-highlighter"
+  "mermaid-tools",
+  "shiki-highlighter",
+  "highlightr-plugin"
 ]
