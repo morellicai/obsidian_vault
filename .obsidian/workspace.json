@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fatec 2º Semestre/Matérias/Técnicas de Programação/8. Módulo - Desenvolvendo e usando métodos.md",
+                "file": "Fatec 2º Semestre/Matérias/Engenharia de Software/4. Fundamentos da Modelagem de Software.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Módulo - Desenvolvendo e usando métodos"
+              "title": "4. Fundamentos da Modelagem de Software"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5,
-    "collapsed": true
+    "width": 235.5
   },
   "right": {
     "id": "e43ce2c4bdc6f973",
@@ -179,14 +178,17 @@
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "pomodoro-timer:Toggle timer panel": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
   "active": "e9fba4d692b2a20e",
   "lastOpenFiles": [
-    "Fatec 2º Semestre/Matérias/Técnicas de Programação/0. Técnicas de Programação - Base.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/0. Engenharia de Software - Base.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/Resumo Geral.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/4. Fundamentos da Modelagem de Software.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/5. Analise SWOT.md",
     "Fatec 2º Semestre/Matérias/Técnicas de Programação/8. Módulo - Desenvolvendo e usando métodos.md",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/0. Técnicas de Programação - Base.md",
     "Fatec 2º Semestre/Matérias/Técnicas de Programação/tarefas/22ºTarefa - Criar o exemplo de Overload de Area.md",
     "Fatec 2º Semestre/Matérias/Técnicas de Programação/tarefas/23ºTarefa - Encapsulamento.md",
     "Fatec 2º Semestre/Matérias/Técnicas de Programação/Calendário de Atividade.md",
@@ -209,13 +211,9 @@
     "Fatec 2º Semestre/Matérias/Banco de Dados/SELECT.md",
     "Fatec 2º Semestre/Matérias/Banco de Dados/Juntando tabelas.md",
     "Fatec 2º Semestre/Matérias/Banco de Dados/WHERE.md",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/FUNÇÕES.md",
-    "Fast Notions/Livros em Leitura/0. Orientação a Objetos.md",
     "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/Sem título 1.base",
     "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/Sem título.base",
-    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/Aula 1 php.md",
     "Tags",
-    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/Estudos PHP.md",
     "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_22-01-23.png",
     "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_21-43-04.png",
     "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_21-25-34 2.png",
