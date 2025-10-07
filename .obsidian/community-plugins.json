@@ -1,5 +1,6 @@
 [
   "quick-latex",
   "mermaid-tools",
-  "highlightr-plugin"
+  "highlightr-plugin",
+  "shiki-highlighter"
 ]

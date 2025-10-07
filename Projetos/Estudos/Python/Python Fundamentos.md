@@ -71,17 +71,17 @@ print(soma)
 - **float**: números decimais
 - **str**: strings (conjuntos de caracteres)
 - **bool**: valores booleanos (**True**, **False**)
-	```python
-	nome = "Alice"
-	idade = 25
-	altura = 1.65
-	ativo = True
-	
-	print(type(nome)) # <class 'str'>
-	print(type(idade)) # <class 'int'>
-	print(type(altura)) # <class 'float'>
-	print(type(ativo)) # <class 'bool'>
-	``` 
+```python
+nome = "Alice"
+idade = 25
+altura = 1.65
+ativo = True
+
+print(type(nome)) # <class 'str'>
+print(type(idade)) # <class 'int'>
+print(type(altura)) # <class 'float'>
+print(type(ativo)) # <class 'bool'>
+``` 
 ### Principais tipos de Estruturas de Dados
 - list
 - tuple
@@ -117,12 +117,12 @@ print("Fim do programa")
 ### Comentarios
 - \# -> comentário inline
 - ''' -> Comentário em bloco
-	```python
-	'''
-	Assim que fica
-	um comentario em bloco
-	'''
-	```
+```python
+'''
+Assim que fica
+um comentario em bloco
+'''
+```
 ### Comandos de saída
 - Print é o comando que permite apresentar texto no terminal. 
 	- Ele irá imprimir tudo como string e qualquer coisa que não seja string será convertido
@@ -197,7 +197,7 @@ for valor in [2, 3, 5, 8]:
 	print(f"{valor}")
 ```
 ### Laço de repetição While
-> O *while* irá repetir a lista de **Comandos** enquanto a **expressão** for verdadeira
+> O *while* irá rep[[0. Estudos PHP]]etir a lista de **Comandos** enquanto a **expressão** for verdadeira
 ##### Exemplo
 ```python
 i = 0

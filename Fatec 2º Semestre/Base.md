@@ -8,4 +8,7 @@
 | Quinta  | [[0. Banco de Dados - Base]]             | José Prata        |
 | Sexta   | [[0. Estrutura de Dados - Base]]         | Fretz Junior      |
 | Sabado  | [[0. Técnicas de Programação - Base]]    | Fretz Junior      |
-
+### Atividades Abertas
+| Data entrega | Matéria | O exercício | Em grupo |
+| ------------ | ------- | ----------- | -------- |
+|              |         |             |          |
