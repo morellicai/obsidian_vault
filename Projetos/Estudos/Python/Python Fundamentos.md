@@ -197,7 +197,7 @@ for valor in [2, 3, 5, 8]:
 	print(f"{valor}")
 ```
 ### Laço de repetição While
-> O *while* irá rep[[0. Estudos PHP]]etir a lista de **Comandos** enquanto a **expressão** for verdadeira
+> O *while* irá rep[[0. Desenvolvimento web php e mysql]]etir a lista de **Comandos** enquanto a **expressão** for verdadeira
 ##### Exemplo
 ```python
 i = 0

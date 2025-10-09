@@ -2,5 +2,6 @@
   "quick-latex",
   "mermaid-tools",
   "highlightr-plugin",
-  "shiki-highlighter"
+  "shiki-highlighter",
+  "dataview"
 ]

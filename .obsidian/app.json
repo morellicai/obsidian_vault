@@ -1,7 +1,7 @@
 {
   "strictLineBreaks": true,
   "showLineNumber": false,
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "foldIndent": true,
   "showIndentGuide": false,
   "trashOption": "local",
@@ -15,5 +15,6 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "defaultViewMode": "preview"
 }

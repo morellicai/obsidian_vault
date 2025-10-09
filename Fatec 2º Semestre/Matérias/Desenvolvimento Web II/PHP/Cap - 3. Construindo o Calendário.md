@@ -1,27 +1,3 @@
-> Esse estudo está sendo feito com fins de aprender como desenvolver um sistema backend via PHP. Aqui irá conter minhas anotações de tudo que vou estudando. Estou usando um livro da casa do código para estudo chamado [Desenvolvimento web com PHP e MySQL](https://www.casadocodigo.com.br/products/livro-php-mysql)
----
-- [[Configurações Iniciais PHP]]
-# O primeiro programa em PHP - CAP 2
-
-Um resumo sobre este capitulo:
-- Neste capitulo do livro aprendi como instalar o PHP e utilizar o xampp (mesmo não usando em minha máquina, Sempre muito bom aprender para poder utilizar se necessário em algum dia)
-- Também fiz meu primeiro código:
-	- O código nada mais do que é uma função que retorna o dia e a hora
-- Aprendi também como e onde estão minhas configurações do PHP
-- Aprendi que a instrução `echo` é utilizada para imprimir algo (seja no navegador quando no terminal)
-- toda linha de instrução termina com `;`
-## Desafio do capitulo
-1. Na função `date()`, experimente mudar o Y para y. O que acontece?
-	- R: Em ver de 2025 ele está abreviando por 25
-2. Consigo exibir a hora no formato de 12 horas, am e pm?
-	- R: Na função date, adiciona um A no final e muda de H para h na hora
-3. E se você tivesse que exibir o dia da semana? como seria?
-	- R: Adiciono outra chamada a função date com o parâmetro "l"
-	- Problema é que ele vem em inglês na resposta. Então teria que traduzir de alguma forma se fosse utilizar a função nativa do php
-4. Exiba quantos dias faltam para o próximo sábado:
-	- R: Para isso, precisava usar o parâmetro "w" para conseguir o valor em numero do dia atual dinamicamente, e diminuir até o dia desejado, que no caso é 6
-5. Exiba também o nome do mês atual
-	- R: Parâmetro usado para essa é o "F"
 # Construindo um calendário com PHP - CAP 3
 
 > Neste capitulo construirei um calendário completo.
@@ -68,7 +44,7 @@ Um resumo sobre este capitulo:
 | $nome     | $1       |
 | $semana   | $!nome   |
 | $\_pessoa | $4nome   |
-- Também usei um array, e ele é um pouco diferende de sintaxes como de C. A sintaxe dele, em vez de "[]" ele usa "()" como se fosse uma função (O que provavelmente, em php seja uma função. Lembrar de revisar isso depois)
+- Também usei um array, e ele é um pouco diferende de sintaxes como de C. A sintaxe dele, em vez de "\[]" ele usa "()" como se fosse uma função (O que provavelmente, em php seja uma função. Lembrar de revisar isso depois)
 - Usei um while, e ele funciona exatamente como em qualquer linguagem. Abertura e fechamento de chaves para podermos delimitar a sua atuação.
 - Assim como o if.
 - Temos também uma chamada de função `count()` 
@@ -121,11 +97,12 @@ function calendario(){
 ```
 
 ### Observação da lógica
+
 - A função linha é responsável por receber a variável `$semana`, que é um array que é iterado no while na função calendário
-- A função calendário, ela está sendo a responsavel pela logica robusta até aqui.
-	- Aqui criamos uma variavel, que será os dias iterados até 31, que é a condição de parada do while da função.
+- A função calendário, ela está sendo a responsável pela logica robusta até aqui. 
+	- Aqui criamos uma variável, que será os dias iterados até 31, que é a condição de parada do while da função.
 	- A cada iteração, é feito um push no array (Ato de adicionar valor no final do array)
-		- O que é interessante é que o array está me parecendo uma função. Para o push, eu preciso passar 2 parametros:
+		- O que é interessante é que o array está me parecendo uma função. Para o push, eu preciso passar 2 parâmetros: 
 		- 1º parâmetro é o array que quero dar push
 		- 2º parâmetro é a variável que quero inserir no array
 - O calendário só chegou até o dia 28 por um erro de lógica proposto no livro. Pois colocamos um if que, se o `count($semana) != 7` ele não entrá no if, e não faz as adições.
@@ -205,3 +182,56 @@ function linha($semana){
 > Executando novamente, os erros sumiram
 
 - Foi usado a função do php `isset()` que verifica se uma variável existe ou se um índice em um array foi definido. 
+## Desafio do capitulo
+
+- Faça uma página que exiba a hora e a frase "Bom dia", "Boa tarde" ou "Boa noite", de acordo com a hora. Use a conficional **if** e a função `{php} date()` 
+	- R: Criei uma função que pega a hora atual, e compara para ver se é de manha e declara bom dia se for. Para exibir a hora, peguei a hora atual com a formatação de hora e minuto e imprimi
+```php
+function cumprimento(){
+	$hora = date("H");
+	if($hora < 12){
+		echo "Bom dia";
+	}else if($hora >= 12 && $hora < 19){
+		echo "Boa tarde";
+	}else{
+		echo "Boa noite";
+	}
+}
+?>
+
+<h1><?php echo "Calendário em PHP"; ?></h1>
+<h3><?php cumprimento() ?></h3>
+<p>
+	<?php
+		$horaAtual = date('h:i A');
+		
+		echo "Agora são $horaAtual";
+	?>
+</p>
+
+```
+- Faça com que o calendário exiba o dia atual em negrito, usando a função `{php} date()`
+- Exiba os domingos em vermelho e os sábados em negrito.
+	- R: 
+- Faça o calendário começar em um dia que não seja um domingo.
+	- R: Antes do while começar, adicionei um for que itera em quantos dias da semana não terão dia, enviando um null para o array `$semana` 
+```php
+function calendario(){
+	$dia = 1;
+	$semana = array();
+	global $diaAtual;
+	for($i = 0; $i < 3; $i++){
+		array_push($semana, null);
+	}
+
+	while($dia <= 31){
+    array_push($semana, $dia);
+    if(count($semana) == 7){
+      linha($semana);
+      $semana = array();
+    }
+    $dia++;
+	}
+  linha($semana);
+}
+```
