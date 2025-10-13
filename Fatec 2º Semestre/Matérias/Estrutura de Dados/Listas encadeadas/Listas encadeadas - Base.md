@@ -1,7 +1,13 @@
-# Listas encadeadas
-- Arquivo `ed-08v2.pptx`
-- Professor Fretz
-- [[0. Estrutura de Dados - Base | Base]]
+---
+tags:
+  - Faculdade
+  - Code
+  - DSA
+Data: 2025-10-10T17:40:00
+Arquivo: ed-08v2.pptx
+Tarefa Feita: false
+---
+- [[0. Estrutura de Dados - Base |Base]]
 - [[Tarefa]]
 ---
 # Estudos por fora

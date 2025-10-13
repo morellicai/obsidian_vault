@@ -3,6 +3,8 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "Data": "datetime"
+    "Data": "datetime",
+    "Tarefa Feita": "checkbox",
+    "Nome Professor": "multitext"
   }
 }

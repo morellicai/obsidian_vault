@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2386dbf270d05f96",
+        "id": "a0055580e02e6321",
         "type": "tabs",
         "children": [
           {
-            "id": "4e41606707272221",
+            "id": "3a4e18b6b9c3ed00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/PHP/Cap - 4. Entrada de Dados com Forms.md",
-                "mode": "source",
+                "file": "Fatec 2º Semestre/Matérias/Engenharia de Software/Resumo Geral.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cap - 4. Entrada de Dados com Forms"
+              "title": "Resumo Geral"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 235.5,
+    "collapsed": true
   },
   "right": {
     "id": "e43ce2c4bdc6f973",
@@ -113,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/PHP/Cap - 4. Entrada de Dados com Forms.md",
+                "file": "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/PHP/Cap - 5. Tratando Campos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Cap - 4. Entrada de Dados com Forms"
+              "title": "Links de saída para Cap - 5. Tratando Campos"
             }
           },
           {
@@ -174,9 +175,21 @@
               "icon": "trident-custom",
               "title": "Mermaid Toolbar"
             }
+          },
+          {
+            "id": "742d2e3a2bd23e08",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Fatec 2º Semestre/Matérias/Técnicas de Programação/tarefas/23ºTarefa - Encapsulamento.md"
+              },
+              "icon": "lucide-info",
+              "title": "Propriedades do arquivo 23ºTarefa - Encapsulamento"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -195,53 +208,53 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "4e41606707272221",
+  "active": "3a4e18b6b9c3ed00",
   "lastOpenFiles": [
-    "Fatec 2º Semestre/Matérias/Banco de Dados/Material Para Prova.md",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/Módulo DDL.md",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/Oracle database no archlinux.md",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/Procedures e Functions.md",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/Views e Manipulação.md",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/WHERE.md",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/Juntando tabelas.md",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/0. Banco de Dados - Base.md",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/Aula inicial.md",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/FUNÇÕES.md",
-    "Fatec 2º Semestre/Matérias/Banco de Dados/Funções Nativas.md",
-    "Fatec 2º Semestre/Matérias/Engenharia de Software/0. Engenharia de Software - Base.md",
-    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/PHP/Cap - 5. Tratando Campos.md",
-    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/PHP/Cap - 3. Construindo o Calendário.md",
-    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/PHP/Cap - 2. Primeiro Código.md",
-    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/PHP/0. Desenvolvimento web php e mysql.md",
-    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/PHP/Cap - 4. Entrada de Dados com Forms.md",
-    "Fatec 2º Semestre/Matérias/Matemática Para Computação/0. Matemática Para Computação - Base.md",
-    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/0. Desenvolvimento Web II - Base.md",
-    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/Aula 1 php.md",
-    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/PHP/Configurações Iniciais PHP.md",
-    "Fatec 2º Semestre/Matérias/Matemática Para Computação/2. Lógica Formal.md",
-    "Fatec 2º Semestre/Matérias/Matemática Para Computação/1. Teoria Dos Conjuntos.md",
-    "Fatec 2º Semestre/Matérias/Matemática Para Computação/3. Funções.md",
-    "saídas llm.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/Resumo Geral.md~",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/3. Analise SWOT.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/2. Metodologias Base para UML.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/Resumo Geral.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/1. Engenharia de Requisitos e Planejamento de Projetos.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/2. Fundamentos da Modelagem de Software.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/2. Fundamentos da Modelagem de Software.md~",
+    "Fatec 2º Semestre/Base.md",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/0. Técnicas de Programação - Base.md",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/Calendário de Atividade.md",
     "Fatec 2º Semestre/Matérias/Estrutura de Dados/0. Estrutura de Dados - Base.md",
+    "Fatec 2º Semestre/Matérias/Banco de Dados/0. Banco de Dados - Base.md",
+    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/0. Desenvolvimento Web II - Base.md",
+    "Fatec 2º Semestre/Matérias/Matemática Para Computação/0. Matemática Para Computação - Base.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/0. Engenharia de Software - Base.md",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/1. Engenharia de Requisitos e Planejamento de Projetos.md~",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/0. Engenharia de Software - Base.md~",
+    "Fatec 2º Semestre/Matérias/Engenharia de Software/0. Modelos de Processo de Desenvolvimento de Software.md",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/tarefas/22ºTarefa - Criar o exemplo de Overload de Area.md",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/tarefas/23ºTarefa - Encapsulamento.md",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/tarefas/attachments/screenshot-2025-10-13_06-37-54.png",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/1. Estrutura de Dados (IED-001).md",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Fila/Fila.md",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Recursão/Recursão.md",
+    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/PHP/Learn the basics PHP.md",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/tarefas/attachments/screenshot-2025-10-13_05-23-51.png",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/tarefas/attachments/screenshot-2025-10-11_18-13-44.png",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/tarefas/attachments",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/Tarefas.md",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/8. Módulo - Desenvolvendo e usando métodos.md",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/9. Módulo - Definições sobre Orientação a Objeto.md",
+    "Fast Notions/Prompts.md",
+    "Fatec 2º Semestre/Matérias/Técnicas de Programação/2. Analisando Problemas e Desenvolvendo Soluções.md",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Sem título",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Pilha/attachments/screenshot-2025-10-10_17-57-57.png",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Pilha/attachments/screenshot-2025-10-10_17-57-04.png",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Pilha/attachments/screenshot-2025-10-10_17-54-57.png",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Pilha/attachments/screenshot-2025-10-10_17-53-06.png",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Pilha/attachments/screenshot-2025-10-10_17-50-46.png",
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Pilha/attachments",
     "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/PHP",
     "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/Sem título 1.base",
     "Fatec 2º Semestre/Matérias/Banco de Dados/Sem título.base",
     "Fatec 2º Semestre/Matérias/Matemática Para Computação/Matemática para Computação/Sem título.base",
-    "Fatec 2º Semestre/Matérias/Matemática Para Computação/Matemática para Computação",
-    "Fatec 2º Semestre/Matérias/Técnicas de Programação/tarefas",
-    "Fast Notions/Livros em Leitura/Sem título.base",
-    "Fatec 2º Semestre/Matérias/Desenvolvimento Web II/Sem título.base",
-    "Tags",
     "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_22-01-23.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_21-43-04.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_21-25-34 2.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_21-25-34 1.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_21-25-34.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/attachments/screenshot-2025-10-03_11-07-31.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/attachments/screenshot-2025-10-03_10-55-22.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/attachments/screenshot-2025-10-03_10-53-21.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/attachments/screenshot-2025-10-03_10-12-25.png",
-    "Fatec 2º Semestre/Matérias/Estrutura de Dados/attachments/screenshot-2025-10-03_08-34-16.png"
+    "Fatec 2º Semestre/Matérias/Estrutura de Dados/Listas encadeadas/attachments/screenshot-2025-10-03_21-43-04.png"
   ]
 }

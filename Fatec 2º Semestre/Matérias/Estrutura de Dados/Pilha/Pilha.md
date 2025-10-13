@@ -1,8 +1,17 @@
-- [[0. Estrutura de Dados - Base | Base]]
-> É uma lista em que todas as operações de inserção, remoção e acesso são feitas num mesmo extremo, denominado de **topo**
+---
+tags:
+  - DSA
+  - Faculdade
+  - Code
+Arquivo: ed-02.pdf
+Tarefa Feita: false
+---
 
+- [[0. Estrutura de Dados - Base | Base]]
+- [[Tarefa Pilha]]
+> É uma lista em que todas as operações de inserção, remoção e acesso são feitas num mesmo extremo, denominado de **topo**
 ### Funcionamento
-- Quando um item é inserido numa pilha, ele é colocado em seu topo.
+- Quando um item é inserido numa pilha, ele é colocado em  seu topo.
 - Apenas o item no ropo da pilha pode ser acessado ou removido
 - Essa política de acesso é denominada **LIFO** (Last-In/First-Out).
 #### Exemplos de aplicação

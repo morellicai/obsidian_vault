@@ -1,0 +1,3 @@
+# Para resumo
+
+> Faça um resumo do módulo 9 deste material. Faça de forma detalhada, incluindo todos os detalhes e códigos que há nas paginas. Fazer o resumo baseado APENAS o módulo 9, não inclua o resumo de outras partes de material, se necessário para ficar completo, use o resto do material para relembrar conceitos, mas não é para fazer resumo de nenhuma outra parte. Esse resumo deve ter um tom humanizado, claro, texto em forma para relembrar o que está no material, mas não as mesmas palavras. Pode usar outras para contextualizar de formas mais simples, mas não mude muito para não perder o raciocínio e não caminhar para algo que não está no material.

@@ -89,4 +89,3 @@ void intercala(int v[], int p, int m, int u) {
 - A ideia é buscar a partir do meio e ir retirando blocos que com certeza não vai estar
 - Ele faz comparação com:
 	- Se o numero que eu estou procurando é maior que o item do meio, descarta todo o bloco da esquerda, e busca um novo meio com apenas metade do vetor
-- 

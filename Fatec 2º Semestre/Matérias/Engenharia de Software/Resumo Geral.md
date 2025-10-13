@@ -1,10 +1,10 @@
 # Resumo da Matéria: Engenharia de Software II
 
-A disciplina **Engenharia de Software II** faz parte do Curso Superior de Tecnologia em Desenvolvimento de Software Multiplataforma. O objetivo central da Engenharia de Software é a aplicação de uma abordagem sistemática, disciplinada e quantificável no desenvolvimento, operação e manutenção de software.
+> A disciplina **Engenharia de Software II** faz parte do Curso Superior de Tecnologia em Desenvolvimento de Software Multiplataforma. O objetivo central da Engenharia de Software é a aplicação de uma abordagem sistemática, disciplinada e quantificável no desenvolvimento, operação e manutenção de software.
 
-## I. Fundamentos e Conceitos de Engenharia de Software
+## Fundamentos e Conceitos de Engenharia de Software
 
-A Engenharia de Software é uma disciplina de engenharia que se preocupa com todos os aspectos da produção de software profissional. Softwares são programas de computador e a documentação associada, podendo ser desenvolvidos para um cliente específico ou para o mercado em geral.
+A Engenharia de Software é uma disciplina de engenharia que se preocupa com todos os aspectos da produção de software profissional. <mark style="background: #ADCCFFA6;">Softwares são programas de computador e a documentação associada</mark>, podendo ser desenvolvidos para um cliente específico ou para o mercado em geral.
 
 ### Qualidade e Custos
 
@@ -30,7 +30,7 @@ O **Processo de Software** é um roteiro que ajuda a criar um resultado de alta 
 
 Outras metodologias de desenvolvimento de projeto incluem **Cascata, Iterativo e Ágil**. A metodologia **Ágil** é centrada na programação, valoriza o profissional, possui menos documentação e o sistema é dividido em pequenas porções para ser desenvolvido e entregue em poucas semanas.
 
-## II. Passos para a Criação de um Projeto de SI
+## Passos para a Criação de um Projeto de SI
 
 Para elaborar um produto ou sistema, é importante seguir uma série de passos previsíveis, que são:
 
@@ -47,11 +47,11 @@ O Plano de Projeto envolve:
 - Definir a equipe de projeto, identificando perfis (analista, programador), definindo responsabilidades e quantidade de profissionais.
 - Gerenciar o plano e a equipe de projeto, verificando a aderência aos objetivos, validando datas com o cliente, controlando prazos e realizando reuniões.
 
-## III. Engenharia de Requisitos e Planejamento de Projetos
+## Engenharia de Requisitos e Planejamento de Projetos
 
 A **Análise de Requisitos** (ou Engenharia de Requisitos/Análise de Sistemas) é fundamental no processo de desenvolvimento de software.
 
-#### Análise de Requisitos e Tipos de Requisitos
+### Análise de Requisitos e Tipos de Requisitos
 
 A análise visa fornecer representações (modelos) de "Informação" e de "função". O profissional constrói modelos usando requisitos **eliciados** do usuário, que precisam ser validados sob diferentes pontos de vista: dados, funcionais e comportamentais.
 
@@ -61,7 +61,7 @@ A análise visa fornecer representações (modelos) de "Informação" e de "fun�
 2. **Requisitos Não Funcionais:** Referem-se a restrições sobre as funções, como rotinas de backup, desempenho ou o tipo de interface (ex: _web_).
 3. **Regras de Negócio:** Normas, condições ou imposições de como o sistema deve funcionar, refletindo a política interna ou processos definidos.
 
-#### Plano Estratégico do Projeto
+### Plano Estratégico do Projeto
 
 Para um projeto, como um E-commerce, é criado um plano estratégico que inclui:
 
@@ -74,7 +74,7 @@ Para um projeto, como um E-commerce, é criado um plano estratégico que inclui:
 - **Plano de Comunicação:** Documento estratégico para estabelecer uma comunicação padronizada, clara e consistente com todos os envolvidos.
 - **Matriz de Responsabilidades:** Ferramenta que define os papéis e responsabilidades de cada membro da equipe.
 
-#### Análise SWOT Detalhada
+### Análise SWOT Detalhada
 
 A sigla SWOT significa **Strengths (Pontos Fortes), Weaknesses (Pontos Fracos), Opportunities (Oportunidades) e Threats (Ameaças)**. O objetivo é avaliar a posição de um produto ou empresa em relação ao mercado.
 
@@ -87,17 +87,17 @@ A sigla SWOT significa **Strengths (Pontos Fortes), Weaknesses (Pontos Fracos), 
 
 É crucial não confundir fatores internos (Fortes/Fracos, relacionados à situação da empresa) com fatores externos (Oportunidades/Ameaças, relacionados ao ambiente envolvente). A análise SWOT permite responder questões como: "Como posso tirar vantagem das novas oportunidades, utilizando meus pontos fortes?".
 
-## IV. Modelagem de Sistemas utilizando UML
+## Modelagem de Sistemas utilizando UML
 
 A **UML (Unified Modeling Language)** é uma tentativa de padronizar a modelagem orientada a objetos. Ela surgiu da unificação das melhores ideias das técnicas **Booch, OMT e OOSE**.
 
-#### Objetivos da UML
+### Objetivos da UML
 
 1. Modelagem de sistemas (não apenas de software) utilizando conceitos de orientação a objetos.
 2. Unir métodos conceituais para que sejam também executáveis.
 3. Criar uma linguagem de modelagem utilizável tanto por humanos quanto por máquinas.
 
-#### Tipos de Diagramas
+### Tipos de Diagramas
 
 A UML suporta modelos estáticos (estrutura), dinâmicos (comportamento) e funcionais.
 
@@ -109,7 +109,7 @@ A UML suporta modelos estáticos (estrutura), dinâmicos (comportamento) e funci
 |Diagrama de Implementação/Implantação|Diagrama de Gráfico de Estados|
 ||Diagrama de Atividades|
 
-#### Principais Diagramas e Conceitos
+### Principais Diagramas e Conceitos
 
 **1. Atores e Casos de Uso**
 
